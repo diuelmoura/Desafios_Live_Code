@@ -40,7 +40,25 @@ public class ValidAnagram {
         }
 
         for(int i = 0; i < word2.length(); i++){
-            fre
+            freq[word2.charAt(i)]--;
+        }
+        for(int i = 0; i < freq.length; i++){
+            if (freq[i] != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        String word1 = "listen";
+        String word2 = "silent";
+
+        boolean result = isAnagram(word1, word2);
+
+        if (result) {
+            System.err.println("As palavras são anagramas.");
+        } else {
+            System.out.println("As palvras não são anagramas");
         }
     } 
 
