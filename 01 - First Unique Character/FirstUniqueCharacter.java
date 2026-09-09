@@ -3,38 +3,41 @@ Write a function/method to find the first unique in a HUGE string
 Solve it in an optiized way
 Example:
 Input: "axaaababawaax"
-Output: x
+Output: w
 */
 
 public class FirstUniqueCharacter {
 
-    public static char firstUnique(String word){
-        
+    public static char firstUnique(String word) {
+
         int[] freq = new int[256];
 
         for(int i = 0; i < word.length(); i++){
+            
             freq[word.charAt(i)]++;
+            
         }
-
-        for(int i = 0;i < word.length();i++){
-             if (freq[word.charAt(i)] == 1) {
+        for (int i = 0; i < word.length(); i++) {
+            if (freq[word.charAt(i)] == 1) {
                 return word.charAt(i);
-             }       
+            }
         }
         return '\0';
     }
     public static void main(String[] args) {
+        
         String word = "axaaababawaax";
 
         char result = firstUnique(word);
 
         if (result != '\0') {
-            System.out.println("O Primeiro caractere único é: " + result);
+            System.out.println("Primeiro caracter único: " + result);
         } else {
-            System.out.println("Não existe caractere único.");            
+            System.out.println("Não existe caracter único!!!");
         }
     }
-}    
+}
+
 /*
  * The **FirstUniqueCharacter** method takes a String as input and aims to find
  * the first character that appears only once.

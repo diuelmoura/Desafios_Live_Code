@@ -1,0 +1,84 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "CharacterReply",
+            "request": "launch",
+            "mainClass": "CharacterReply",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "CharacterRply",
+            "request": "launch",
+            "mainClass": "CharacterRply",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "ValidAnagram",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyArray",
+            "request": "launch",
+            "mainClass": "FrequencyArray",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "FirstUniqueCharacter",
+            "request": "launch",
+            "mainClass": "FirstUniqueCharacter",
+            "projectName": "Desafios_Live_Code_f651ab05"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSequence",
+            "request": "launch",
+            "mainClass": "LongestIncreasingSequence",
+            "projectName": "Desafio_f7e5e41e"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Desafio_f7e5e41e"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSequence",
+            "request": "launch",
+            "mainClass": "LongestIncreasingSequence",
+            "projectName": "Desafio_505cc84d"
+        },
+        {
+            "type": "java",
+            "name": "Debug LIS",
+            "request": "launch",
+            "mainClass": "LIS",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        }
+    ]
+}
