@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstUniqueCharacter",
+            "request": "launch",
+            "mainClass": "FirstUniqueCharacter",
+            "projectName": "02 - Desafios_Live_Code_f8111357"
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "InsertionSort",
@@ -70,15 +77,6 @@
             "request": "launch",
             "mainClass": "LongestIncreasingSequence",
             "projectName": "Desafio_505cc84d"
-        },
-        {
-            "type": "java",
-            "name": "Debug LIS",
-            "request": "launch",
-            "mainClass": "LIS",
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "stopOnEntry": false
         }
     ]
 }

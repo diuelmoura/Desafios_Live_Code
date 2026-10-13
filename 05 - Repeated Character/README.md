@@ -1,10 +1,12 @@
 # 05 — Repeated Character
 
+## 🎯 Objetivo
+
 Verificar se uma string contém pelo menos um caractere repetido. O resultado é um booleano; o método não retorna qual caractere se repetiu.
 
 Código: [CharacterRepeated.java](CharacterRepeated.java).
 
-## Exemplos
+## 📋 Exemplos
 
 | Entrada | Retorno de `solution` |
 | --- | --- |
@@ -14,13 +16,21 @@ Código: [CharacterRepeated.java](CharacterRepeated.java).
 | `"code"` | `false` |
 | `"abcde"` | `false` |
 
-## Como funciona
+## ⚙️ Como funciona
 
 Um array de 26 posições registra a frequência das letras de `a` a `z`. A expressão `c - 'a'` transforma cada letra em um índice: `a` corresponde a 0, `b` a 1, e assim por diante.
 
 Para cada letra, o contador é incrementado. Se ele ultrapassar `1`, o método retorna `true` imediatamente. Se o percurso terminar sem repetição, retorna `false`.
 
-## Complexidade e limites
+## 🧠 Conceitos utilizados
+
+- Strings e caracteres
+- Arrays de frequência
+- Mapeamento de letras para índices
+- Estruturas de repetição e condicionais
+- Retorno booleano e retorno antecipado
+
+## 📊 Complexidade e limites
 
 - Tempo: limite superior `O(n)`, sendo `n` o tamanho da string, com retorno antecipado ao encontrar repetição.
 - Espaço auxiliar: `O(1)`, com 26 posições fixas.
@@ -29,7 +39,7 @@ Como o alfabeto é restrito a 26 letras, uma entrada válida com mais de 26 cara
 
 A entrada deve conter apenas letras minúsculas de `a` a `z`. Outros caracteres produzem índices fora do array.
 
-## Como executar
+## 🚀 Como executar
 
 No terminal, dentro desta pasta, com JDK 17 ou superior:
 

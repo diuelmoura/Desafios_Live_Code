@@ -1,17 +1,19 @@
 # 06 — Insertion Sort
 
+## 🎯 Objetivo
+
 Ordenar um array de inteiros em ordem crescente utilizando Insertion Sort, sem criar outro array para a ordenação.
 
 Código: [InsertionSort.java](InsertionSort.java).
 
-## Exemplo
+## 📋 Exemplo
 
 ```text
 Before: [8, 3, 5, 9, 1]
 After: [1, 3, 5, 8, 9]
 ```
 
-## Como funciona
+## ⚙️ Como funciona
 
 O primeiro elemento já é considerado uma parte ordenada. A partir do segundo elemento:
 
@@ -21,7 +23,16 @@ O primeiro elemento já é considerado uma parte ordenada. A partir do segundo e
 
 Esse processo aumenta a parte ordenada até abranger todo o array. O método `insertionSort` modifica o próprio array recebido e não retorna um novo array.
 
-## Complexidade
+## 🧠 Conceitos utilizados
+
+- Arrays de inteiros
+- Algoritmo Insertion Sort
+- Estruturas de repetição
+- Comparação e deslocamento de elementos
+- Ordenação no próprio array
+- Estabilidade da ordenação
+
+## 📊 Complexidade
 
 | Caso | Tempo |
 | --- | --- |
@@ -31,7 +42,7 @@ Esse processo aumenta a parte ordenada até abranger todo o array. O método `in
 
 O espaço auxiliar é `O(1)`. `n` é a quantidade de elementos. Como a comparação desloca apenas valores estritamente maiores, elementos iguais mantêm sua ordem relativa: a ordenação é estável.
 
-## Como executar
+## 🚀 Como executar
 
 No terminal, dentro desta pasta, com JDK 17 ou superior:
 

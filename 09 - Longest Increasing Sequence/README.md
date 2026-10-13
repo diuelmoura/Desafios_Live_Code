@@ -1,12 +1,14 @@
 # 09 — Longest Increasing Sequence
 
+## 🎯 Objetivo
+
 Encontrar o tamanho da maior subsequência estritamente crescente de um array de inteiros positivos. Esse problema também é conhecido como **Longest Increasing Subsequence (LIS)**.
 
 Uma subsequência preserva a ordem dos elementos da entrada, mas não exige posições consecutivas. O método retorna seu tamanho, sem reconstruir os elementos que a compõem.
 
 Código: [LongestIncreasingSequence.java](LongestIncreasingSequence.java).
 
-## Exemplos
+## 📋 Exemplos
 
 | Entrada | Uma maior subsequência crescente | Retorno |
 | --- | --- | --- |
@@ -14,7 +16,7 @@ Código: [LongestIncreasingSequence.java](LongestIncreasingSequence.java).
 | `[9, 9, 4, 2]` | `[9]` | `1` |
 | `[10, 22, 9, 33, 21, 50, 41, 60, 22, 68, 90]` | `[10, 22, 33, 50, 60, 68, 90]` | `7` |
 
-## Como funciona
+## ⚙️ Como funciona
 
 A solução utiliza programação dinâmica. Cada posição `dp[i]` guarda o tamanho da maior subsequência crescente que termina em `arr[i]`.
 
@@ -25,14 +27,23 @@ A solução utiliza programação dinâmica. Cada posição `dp[i]` guarda o tam
 
 Para `[4, 3, 5, 1, 6]`, o array final é `dp = [1, 1, 2, 1, 3]`, e a resposta é `3`.
 
-## Complexidade e limites
+## 🧠 Conceitos utilizados
+
+- Arrays de inteiros
+- Subsequências estritamente crescentes
+- Programação dinâmica
+- Estruturas de repetição aninhadas
+- Comparação e atualização de máximos
+- Armazenamento de resultados parciais
+
+## 📊 Complexidade e limites
 
 - Tempo: `O(n²)`, pelas comparações com os elementos anteriores.
 - Espaço auxiliar: `O(n)`, pelo array `dp`.
 
 `n` é a quantidade de elementos. A comparação estrita `>` impede que valores iguais prolonguem a subsequência. A implementação pressupõe uma entrada não vazia; para um array vazio, atualmente retorna `1` devido à inicialização de `maiorSequencia`.
 
-## Como executar
+## 🚀 Como executar
 
 No terminal, dentro desta pasta, com JDK 17 ou superior:
 

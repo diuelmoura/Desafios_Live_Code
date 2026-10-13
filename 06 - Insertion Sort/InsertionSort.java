@@ -1,5 +1,5 @@
 /*
- * CHALLENGE STATEMENT - Insertion Sort
+ * CHALLENGE STATEMENT 06 - Insertion Sort
  *
  * Given an array of integers, implement the Insertion Sort algorithm
  * to sort the array in ascending order.

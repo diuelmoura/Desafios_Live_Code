@@ -1,12 +1,14 @@
 # 08 — Overlapping Ranges
 
+## 🎯 Objetivo
+
 Determinar se dois intervalos de inteiros têm pelo menos `x` valores em comum, incluindo seus limites.
 
 O método recebe um array com cinco inteiros positivos no formato `[inícioA, fimA, inícioB, fimB, x]`, com os limites de cada intervalo em ordem. Retorna a string `"true"` ou `"false"`.
 
 Código: [OverlappingRanges.java](OverlappingRanges.java).
 
-## Exemplos
+## 📋 Exemplos
 
 | Entrada | Valores em comum | Retorno |
 | --- | --- | --- |
@@ -14,7 +16,7 @@ Código: [OverlappingRanges.java](OverlappingRanges.java).
 | `[1, 6, 5, 8, 3]` | 5 e 6 | `"false"` |
 | `[1, 3, 3, 5, 1]` | 3 | `"true"` |
 
-## Como funciona
+## ⚙️ Como funciona
 
 O início da sobreposição é o maior dos dois inícios; o fim é o menor dos dois finais:
 
@@ -27,14 +29,23 @@ Se `overlapEnd < overlapStart`, a quantidade em comum é zero. Caso contrário, 
 
 Por fim, o método compara essa quantidade com `targetOverlap`.
 
-## Complexidade
+## 🧠 Conceitos utilizados
+
+- Arrays de inteiros
+- Interseção de intervalos
+- Funções Math.max e Math.min
+- Contagem com limites inclusivos
+- Operadores aritméticos e de comparação
+- Estruturas condicionais
+
+## 📊 Complexidade
 
 - Tempo: `O(1)`.
 - Espaço auxiliar: `O(1)`.
 
 O cálculo usa apenas os cinco valores de entrada, sem percorrer todos os números dos intervalos.
 
-## Como executar
+## 🚀 Como executar
 
 No terminal, dentro desta pasta, com JDK 17 ou superior:
 

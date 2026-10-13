@@ -1,4 +1,4 @@
-/*ENUNCIADO DESAFIO 2 - Overlapping Ranges*/
+/*ENUNCIADO DESAFIO 08 - Overlapping Ranges*/
 
 /*Have the function OverlappingRanges(arr) take the array of numbers stored in (arr) which will contain 5 positive integers,
 the first two representing a range of numbers (a to b), the next 2 also representing another range of integers (c to d),
@@ -14,7 +14,7 @@ import java.io.*;
 
 /*CODIGO*/
 public class OverlappingRanges {
-    public static String OverlappingRanges(int[] arr) {
+    public static String overlappingRanges(int[] arr) {
         int range1Start = arr[0];
         int range1End = arr[1];
         int range2Start = arr[2];
@@ -30,7 +30,7 @@ public class OverlappingRanges {
         return overlapCount >= targetOverlap ? "true" : "false";
     }
     public static void main(String[] args) {
-        System.out.println(OverlappingRanges(new int[]{1,6,5,8,3}));
+        System.out.println(overlappingRanges(new int[]{1,6,5,8,3}));
     }
 }
 

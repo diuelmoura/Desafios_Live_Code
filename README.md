@@ -35,6 +35,7 @@ A proposta é evoluir gradualmente de problemas mais simples para técnicas e es
 
 | Nº | Desafio | Status |
 | --- | --- | --- |
+| 00 | [Number Guessing Game](00%20-%20Number%20Guessing%20Game/README.md) | Implementado |
 | 01 | [First Unique Character](01%20-%20First%20Unique%20Character/README.md) | Implementado |
 | 02 | [Frequency Array](02%20-%20Frequency%20Array/README.md) | Implementado |
 | 03 | [Valid Anagram](03%20-%20Valid%20Anagram/README.md) | Implementado |

@@ -1,5 +1,5 @@
-/*ENUNCIADO DESAFIO 1 - First Unique Character
-Write a function/method to find the first unique in a HUGE string
+/*CHALLENGE STATEMENT 01 - First Unique Character
+Write a function/method to find the first unique character in a HUGE string
 Solve it in an optiized way
 Example:
 Input: "axaaababawaax"
@@ -8,15 +8,14 @@ Output: w
 
 public class FirstUniqueCharacter {
 
-    public static char firstUnique(String word) {
+    public static char firstUnique(String word){
 
         int[] freq = new int[256];
 
-        for(int i = 0; i < word.length(); i++){
-            
+        for (int i = 0; i < word.length(); i++) {
             freq[word.charAt(i)]++;
-            
         }
+
         for (int i = 0; i < word.length(); i++) {
             if (freq[word.charAt(i)] == 1) {
                 return word.charAt(i);
@@ -28,12 +27,12 @@ public class FirstUniqueCharacter {
         
         String word = "axaaababawaax";
 
-        char result = firstUnique(word);
+        char result = firstUnique(word); 
 
         if (result != '\0') {
-            System.out.println("Primeiro caracter único: " + result);
+            System.out.println("Primeiro caractere único: " + result);
         } else {
-            System.out.println("Não existe caracter único!!!");
+            System.out.println("Não existe caractere único.");
         }
     }
 }
@@ -63,4 +62,3 @@ public class FirstUniqueCharacter {
  * Thus, the String is traversed only twice, resulting in **O(n)** time
  * complexity, making it an efficient solution even for very large Strings.
  */
-

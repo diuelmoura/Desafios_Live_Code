@@ -1,4 +1,4 @@
-/*CHALLENGE STATEMENT 3 - Valid Anagram
+/*CHALLENGE STATEMENT 03 - Valid Anagram
 
 Write a function/method that receives two Strings and determines
 whether they are valid anagrams.

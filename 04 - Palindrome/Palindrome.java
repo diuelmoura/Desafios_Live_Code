@@ -1,4 +1,4 @@
-/*CHALLENGE STATEMENT 4 - Palindrome
+/*CHALLENGE STATEMENT 04 - Palindrome
 Write a function solution that, given a string S of length N, returns any palindrome which can be obtained by replacing all of the question marks in S by lowercas letters ('a'- 'z').
 If a palindrome is a string thet reads the same both fowards and backwards. Some exaples of palindorme are: "kayak", "radar" and "mom".
 

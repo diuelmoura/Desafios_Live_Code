@@ -1,4 +1,4 @@
-/*CHALLENGE STATEMENT 2 - Frequency Array
+/*CHALLENGE STATEMENT 02 - Frequency Array
 Write a function/method tjat receives a String and counts the frequency of each character.
 
 The function should use a Frequency Array to store how many times each characters that appear at least once.

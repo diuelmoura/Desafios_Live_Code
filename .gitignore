@@ -1,1 +1,4 @@
-Desafios/
+# Arquivos que não devem ser enviados ao GitHub
+SwitchExpressions.java
+While_and_Break.java
+README_antigo.md

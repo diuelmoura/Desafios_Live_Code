@@ -1,4 +1,4 @@
-/*CHALLENGE - REPEATED CHARACTER
+/*CHALLENGE STATEMENT 05 - REPEATED CHARACTER
 Write a function "solution" that, given a String S of length N, checks if there is at one repeated character.
 The function
 */
